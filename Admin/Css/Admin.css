@@ -1,0 +1,91 @@
+.container {
+  height: 80vh;
+  
+  width: 50%;
+  display: flex;
+  margin: auto;
+    margin-top: 60px;
+}
+.con1{
+  height: 80vh;
+  
+  width: 55%;
+  flex-grow: 1;
+}
+.con2{
+  height: 80vh;
+  
+  background-color: white;
+  width: 45%;
+  flex-grow: 1;
+}
+.con1 img{
+  height: 80vh;
+  width: 100%;
+}
+.con2 img{
+  display: block;
+    margin-left: auto;
+    margin-top: 5px;
+    margin-right: auto;
+    width: 30%;
+    height: 12vh;
+}
+.con2 h1{
+  text-align: center;
+  color: grey;
+  font-family: "Rajdhani", sans-serif; 
+    font-weight: 600;
+    font-style: normal;
+    margin-bottom: -25px;
+    margin-top: 0;
+}
+.con2 h2{
+  text-align: center;
+  color: grey;
+  font-family: "Rajdhani", sans-serif; 
+    font-weight: 500;
+    font-style: normal;
+}
+form{
+  
+  margin-left: 25px;
+  margin-right: 20px;
+}
+input[type=text], input[type=password] {
+  width: 80%;
+  height: 5vh;
+  
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  
+}
+label{
+    font-family: "Rajdhani", sans-serif; 
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    outline: none;
+}
+form button{
+  background-color: rgb(23,40,57);
+                color: white;
+                width: 82%;
+                height: 5vh;
+                border: none;
+                cursor: pointer;
+                opacity: 0.9;
+}
+a{
+  text-decoration: none;
+}
+.an{
+  margin-left: 40px;
+    margin-top: 25px;
+}
+.an2{
+  margin-left: 100px;
+    margin-top: 230px;
+}
