@@ -107,10 +107,10 @@ CREATE TABLE `orders` (
 
 INSERT INTO `orders` (`id`, `tracking_no`, `user_id`, `name`, `email`, `phone`, `address`, `pincode`, `total_price`, `payment_mode`, `status`, `comments`, `created_at`) VALUES
 (1, 'ODI698445654', 7, 'Test Name', 'TestEmail@gmail.com', '1232145654', 'testing address', 765678, 1050, 'COD', 0, NULL, '2024-05-18 04:54:34'),
-(2, 'ODI5755922235', 7, 'Ameek Sharma', 'sharmaameek@gmail.com', '09461922235', '104 hiran magri chitrakut vihar sec-14', 313002, 500, 'COD', 0, NULL, '2024-05-18 05:38:50'),
+(2, 'ODI5755922235', 7, 'Ameek Sharma', 'sharmaameek@gmail.com', '1234567', '104 hiran magri chitrakut vihar sec-14', 313002, 500, 'COD', 0, NULL, '2024-05-18 05:38:50'),
 (3, 'ODI955956', 7, 'nitin', 'nitin@gmail.com', '1234456', 'nitin', 12321, 500, 'COD', 0, NULL, '2024-05-20 07:39:51'),
-(4, 'ODI3326922235', 9, 'Ameek Sharma', 'sharmaameek@gmail.com', '09461922235', '104 hiran magri chitrakut vihar sec-14', 313002, 550, 'COD', 1, NULL, '2024-05-20 08:06:12'),
-(5, 'ODI8804922235', 10, 'Ameek Sharma', 'sharmaameek@gmail.com', '09461922235', '104 hiran magri chitrakut vihar sec-14', 313002, 500, 'COD', 1, NULL, '2024-06-05 13:43:06');
+(4, 'ODI3326922235', 9, 'Ameek Sharma', 'sharmaameek@gmail.com', '1234567', '104 hiran magri chitrakut vihar sec-14', 313002, 550, 'COD', 1, NULL, '2024-05-20 08:06:12'),
+(5, 'ODI8804922235', 10, 'Ameek Sharma', 'sharmaameek@gmail.com', '1234567', '104 hiran magri chitrakut vihar sec-14', 313002, 500, 'COD', 1, NULL, '2024-06-05 13:43:06');
 
 -- --------------------------------------------------------
 
@@ -159,9 +159,9 @@ CREATE TABLE `registrations` (
 --
 
 INSERT INTO `registrations` (`sno`, `Name`, `Mobile Number`, `Email`, `Password`, `role_as`) VALUES
-(2, 'Ameek Sharma', 9461922235, 'sharmaameek@gmail.com', '$2y$10$Zgi5xPOqVUybxcAXN2ykieFHLq7va3dJq6crVcNl2BdvZmBgWYmkO', 0),
-(3, 'Intel', 9461922232, 'ask.intel@yahoo.com', '$2y$10$sl9ys1PgeOhmyLk/VVVIvufXJ/P0fHrAvWQZ1TdX63qvXG3K74WRe', 0),
-(4, 'chirag sukhwal', 9511512486, 'k@gmail.com', '$2y$10$wkLXgqmYXTYLlw9M2BWVIuqpwGS9oJ6F7Bj.fcabb3iHm50l3PtAK', 0),
+(2, 'Ameek Sharma', 123456789, 'sharmaameek@gmail.com', '$2y$10$Zgi5xPOqVUybxcAXN2ykieFHLq7va3dJq6crVcNl2BdvZmBgWYmkO', 0),
+(3, 'Intel', 123456789, 'ask.intel@yahoo.com', '$2y$10$sl9ys1PgeOhmyLk/VVVIvufXJ/P0fHrAvWQZ1TdX63qvXG3K74WRe', 0),
+(4, 'chirag sukhwal', 123456789, 'k@gmail.com', '$2y$10$wkLXgqmYXTYLlw9M2BWVIuqpwGS9oJ6F7Bj.fcabb3iHm50l3PtAK', 0),
 (5, 'nitin sir PIET', 1234567890, 'nitin@gmail.com', '$2y$10$M8ORKYGG7ydzXUN2AoD8xOtoL6XeiP0IzHsqjdhsOE54WW9nz9jOu', 0),
 (6, 'abc', 1234599999, 'abc@gmail.com', '$2y$10$wRGsAoYYvW4E5t89Uj.g/OVVqDtVG/sSHv.zuA8njkh5NReQJwiEu', 0),
 (7, 'abcd', 1234567890, 'abcd@gmail.com', '$2y$10$U6Fa.xCxE3BGrfnJphs39et0xeRWLTWzoMGIPRbH7XTm111Txf/yi', 0),
